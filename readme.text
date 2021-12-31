@@ -1,0 +1,20 @@
+merhaba,
+changes_word. json dosyasına değiştirmek istediğin kelimeleri yaz.
+
+
+{
+    "Cool":"changed",
+    ...
+    ..
+    
+    
+}
+
+Cool = Text de var olan kelime
+Cool = bunun karşına bişey yazmassan oraya boş bırakır.örnerk "Cool":""
+changed = Cool yerine gelicek olan kelime
+
+
+text.txt ise senin değişmesini istediğin text dosyası.
+
+myfile = işlenmiş senin istediğin dosya
