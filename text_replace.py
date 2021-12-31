@@ -36,7 +36,9 @@ def replace_processor():
             if value:
                 changed_word = value
                 replace_text = replace_text.replace(check_word,changed_word)
-    
+            else:
+                changed_word = ""
+                replace_text = replace_text.replace(check_word,changed_word)
 
         text = replace_text
         write_file(text)
